@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  <title>Hourai Teahouse | Fantasy Crescendo v0.3.0-alpha</title>
+  
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Import extra css files into styles.scss -->
+  <link rel="stylesheet" type="text/css" integrity="sha256-1UOdXiqtkE/keBRAHXo1E3Nvylb0l64t5idL4UB1KJM=" crossorigin="anonymous" href="/assets/styles-d5439d5e2aad904fe47814401d7a3513736fca56f497ae2de6274be140752893.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-82900227-4', 'auto');
+  </script>
+
+
+</head>
+
+  <body>
+    <div class="content">
+      <nav class="navbar navbar-expand-lg navbar-inverse">
+  <div class="container-fluid justify-content-start">
+    <div class="row flex-nowrap justify-content-between navigation-icons">
+      <a class="navbar-brand" href="/">
+        <img width="30" height="30" src="/assets/logo-e017c23f9f497436a7876afc7c1639c4e765f6abf6ecf3aadc18d6c6f253a5cc.png" integrity="sha256-4BfCP59JdDanh2r8fBY5xOdl9qv27POq3BjWxvJTpcw=" crossorigin="anonymous">
+        Hourai Teahouse
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">
+            Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/news">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/faq">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contribute">Contribute</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://wiki.houraiteahouse.net">
+            Wiki
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav navigation-social">
+        
+        <li class="col-auto no-gutter-left no-gutter-lg-right">
+          <a class="nav-link nav-icon" href="https://discord.gg/VuZhs9V">
+            <i class="fab fa-discord "></i>
+          </a>
+        </li>
+        
+        
+        <li class="col-auto no-gutter-left no-gutter-lg-right">
+          <a class="nav-link nav-icon" href="https://facebook.com/HouraiTeahouse">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        
+        
+        <li class="col-auto no-gutter-left no-gutter-lg-right">
+          <a class="nav-link nav-icon" href="https://twitter.com/HouraiTeahouse">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        
+        
+        <li class="col-auto no-gutter-left no-gutter-lg-right">
+          <a class="nav-link nav-icon" href="https://github.com/HouraiTeahouse">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <div class="container">
+  <h1 id="v030-alpha">v0.3.0-alpha</h1>
+
+<h2 id="general-patch-notes">General Patch Notes</h2>
+
+<h3 id="new-additions">New Additions:</h3>
+<ul>
+  <li>Characters: Youmu Konpaku is now playable.</li>
+  <li>Stages: Forest of Magic is now selectable.</li>
+  <li>Stages: Netherworld is now selectable.</li>
+  <li>Stages: Soft platforms have been introduced. Players can fall through these by smashing the down direction.</li>
+  <li>Menus: A basic placeholder stage select menu has been added.</li>
+  <li>Menus: An options menu has been added.</li>
+  <li>Menus: A credits menu has been added.</li>
+  <li>Options: Game quality is now an in-game option.</li>
+  <li>Options: Volume controls for master, music, and sound effecs are now in game options.</li>
+  <li>Controls: Gamepad controls have been re-enabled.</li>
+  <li>Networking: Network play has been added.</li>
+  <li>Engine: Fast falling has been implemented.</li>
+  <li>Engine: Game pausing has been added. Pausing will not work in networked games.</li>
+  <li>Engine: A player controlled free-pan/rotate camera has been added while the game is paused.</li>
+  <li>Engine: Shielding has been implemented.</li>
+  <li>Engine: Tilt attacks have beem implented.</li>
+  <li>Engine: Smash attacks have been implemented (though may be very buggy right now).</li>
+  <li>Engine: Aerial attacks have been implemented.</li>
+  <li>Engine: Rolling and sidestepping has been implemented.</li>
+  <li>Engine: Damage via hitboxes has been implemented.</li>
+  <li>Engine: Knockback via hitboxes has been implemented.</li>
+  <li>Engine: Hitstun via hitboxes has been implemented (Partial/WIP).</li>
+  <li>Misc: A game reset effect has been added. Press Ctrl + R from any point to return to the stage select  menu.</li>
+  <li>Misc: A screenshot button has been added. Press F12 to take a screenshot. Saves to the game’s directory.</li>
+  <li>Launcher: A automatically updating launcher has been added to the game, will try to keep the game as up  to date as possible.</li>
+  <li>Localization: Game will automatically localize itself to the user’s current system language.</li>
+  <li>Localization: Added German as an available game language.</li>
+  <li>Localization: Added English as an available game language.</li>
+  <li>Localization: Added Spanish as an available game language.</li>
+  <li>Localization: Added French as an available game language.</li>
+  <li>Localization: Added Croatian as an available game language.</li>
+  <li>Localization: Added Hungarian as an available game language.</li>
+  <li>Localization: Added Italian as an available game language.</li>
+  <li>Localization: Added Japanese as an available game language.</li>
+  <li>Localization: Added Korean as an available game language.</li>
+  <li>Localization: Added Dutch as an available game language.</li>
+  <li>Localization: Added Polish as an available game language.</li>
+  <li>Localization: Added Portuguese as an available game language.</li>
+  <li>Localization: Added Russian as an available game language.</li>
+  <li>Localization: Added Serbian as an available game language.</li>
+  <li>Localization: Added Thai as an available game language.</li>
+  <li>Localization: Added Chinese (Simplified) as an available game language.</li>
+  <li>Localization: Added Chinese (Traditional) as an available game language.</li>
+</ul>
+
+<h3 id="known-issues">Known Issues:</h3>
+<ul>
+  <li>UI: No character select screen is available: only one character is available currently.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/144">#144</a>) UI: No custom network lobby UI is currently available. The debug UI is used instead.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/104">#104</a>) Youmu: Neutral combo is not implemented yet.</li>
+  <li>Youmu: Special attacks are not implemented yet.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/105">#105</a>) Youmu: Some tilt attacks do not have animations yet.</li>
+  <li>Youmu: Still missing a few other animations, several of her states copy other animations as placeholders.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/84">#84</a>) Youmu: Some animations have a broken facial animations making Youmu look like a goblin in these cases.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/74">#74</a>) Engine: Ledge guarding is not implemented yet. Multiple players can grab the same ledge</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/213">#213</a>) Engine: Smash attacks cannot currently be charged.</li>
+  <li>Attacks are currently purely visual. They do not spawn hitboxes yet.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/178">#178</a>) Engine: Shielding via keyboard controls seems to be broken for select individuals.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/190">#190</a>) Engine: Tapping down may occasionally cause a delayed jump.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/151">#151</a>) Engine: Force falling through soft platforms always triggers immediate fast falling.</li>
+  <li>(<a href="https://github.com/HouraiTeahouse/FantasyCrescendo/issues/101">#101</a>) Networking: Non-host players in a networked match may occasionally lose multiple lives upon dying.</li>
+  <li>Network: Network animation synchronization is very simple right now. Remote player’s animations may be very jerky or laggy.</li>
+</ul>
+
+<h2 id="technical-patch-notes">Technical Patch Notes:</h2>
+
+<h3 id="new-additions-1">New Additions:</h3>
+<ul>
+  <li>Added dependency on HouraiOptions</li>
+  <li>Debug builds will have an additional Debug Stage added to the stage select screen.</li>
+  <li>A debug console has been added. Use F5 to toggle it. (Available anywhere in game).</li>
+  <li>A hitbox display effect (shows character hitboxes) has been added. Use F11 to toggle it.</li>
+  <li>Unity Performance Reporting has been enabled. All exceptions will be reported via this service to help
+further develop the game.</li>
+  <li>Unity Cloud Build has been enabled and integrated into the game’s deployment system. Builds from Unity
+Cloud Build will be immediately available under the “Development” branch in the Launcher.</li>
+  <li>Unity Multiplayer Service has been enabled. The game now utilizes the matchmaking and relay services to
+assist in building internet based network matches. LAN matches do not go through this networking layer.</li>
+  <li>CloudFlare has been added as an intermediate caching layer for the deployment system.</li>
+  <li>Added dependency on Memes</li>
+</ul>
+
+  
+  <div id="disqus_thread"></div>
+  <script>
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://hourai-teahouse.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>
+    Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+  </noscript>
+
+
+</div>
+
+    </div>
+    <footer class="footer">
+  <div class="container footer-content">
+      <span>
+        Language:
+        <div class="btn-group dropup">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            English
+          </button>
+          <div class="dropdown-menu">
+            
+            
+            <a class="dropdown-item" href="/2017/07/30/Fantasy-Crescendo-v0.3.0_alpha.html">
+              English
+            </a>
+            
+            
+            <a class="dropdown-item" href="/es/2017/07/30/Fantasy-Crescendo-v0.3.0_alpha.html">
+              Spanish
+            </a>
+            
+            
+            <a class="dropdown-item" href="/fr/2017/07/30/Fantasy-Crescendo-v0.3.0_alpha.html">
+              French
+            </a>
+            
+            
+            <a class="dropdown-item" href="/de/2017/07/30/Fantasy-Crescendo-v0.3.0_alpha.html">
+              German
+            </a>
+            
+            
+            <a class="dropdown-item" href="/jp/2017/07/30/Fantasy-Crescendo-v0.3.0_alpha.html">
+              Japanese
+            </a>
+            
+          </div>
+        </div>
+      </span>
+      <span class="float-right">&copy; Hourai Teahouse 2015-2018</span>
+  </div>
+</footer>
+
+    <!-- Bootstrap JavaScript -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>

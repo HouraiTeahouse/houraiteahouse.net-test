@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es"><generator uri="https://jekyllrb.com/" version="3.7.3">Jekyll</generator><link href="https://houraiteahouse.github.io/es/feed.xml" rel="self" type="application/atom+xml" /><link href="https://houraiteahouse.github.io/es/" rel="alternate" type="text/html" hreflang="es" /><updated>2018-03-28T05:04:15+00:00</updated><id>https://houraiteahouse.github.io/es/</id><title type="html">Hourai Teahouse</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Fantasy Crescendo v0.3.0-alpha</title><link href="https://houraiteahouse.github.io/es/2017/07/30/Fantasy-Crescendo-v0.3.0_alpha.html" rel="alternate" type="text/html" title="Fantasy Crescendo v0.3.0-alpha" /><published>2017-07-30T00:00:00+00:00</published><updated>2017-07-30T00:00:00+00:00</updated><id>https://houraiteahouse.github.io/es/2017/07/30/Fantasy-Crescendo-v0.3.0_alpha</id><content type="html" xml:base="https://houraiteahouse.github.io/es/2017/07/30/Fantasy-Crescendo-v0.3.0_alpha.html">&lt;h1 id=&quot;v030-alpha&quot;&gt;v0.3.0-alpha&lt;/h1&gt;
+
+&lt;h2 id=&quot;general-patch-notes&quot;&gt;General Patch Notes&lt;/h2&gt;
+
+&lt;h3 id=&quot;new-additions&quot;&gt;New Additions:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Characters: Youmu Konpaku is now playable.&lt;/li&gt;
+  &lt;li&gt;Stages: Forest of Magic is now selectable.&lt;/li&gt;
+  &lt;li&gt;Stages: Netherworld is now selectable.&lt;/li&gt;
+  &lt;li&gt;Stages: Soft platforms have been introduced. Players can fall through these by smashing the down direction.&lt;/li&gt;
+  &lt;li&gt;Menus: A basic placeholder stage select menu has been added.&lt;/li&gt;
+  &lt;li&gt;Menus: An options menu has been added.&lt;/li&gt;
+  &lt;li&gt;Menus: A credits menu has been added.&lt;/li&gt;
+  &lt;li&gt;Options: Game quality is now an in-game option.&lt;/li&gt;
+  &lt;li&gt;Options: Volume controls for master, music, and sound effecs are now in game options.&lt;/li&gt;
+  &lt;li&gt;Controls: Gamepad controls have been re-enabled.&lt;/li&gt;
+  &lt;li&gt;Networking: Network play has been added.&lt;/li&gt;
+  &lt;li&gt;Engine: Fast falling has been implemented.&lt;/li&gt;
+  &lt;li&gt;Engine: Game pausing has been added. Pausing will not work in networked games.&lt;/li&gt;
+  &lt;li&gt;Engine: A player controlled free-pan/rotate camera has been added while the game is paused.&lt;/li&gt;
+  &lt;li&gt;Engine: Shielding has been implemented.&lt;/li&gt;
+  &lt;li&gt;Engine: Tilt attacks have beem implented.&lt;/li&gt;
+  &lt;li&gt;Engine: Smash attacks have been implemented (though may be very buggy right now).&lt;/li&gt;
+  &lt;li&gt;Engine: Aerial attacks have been implemented.&lt;/li&gt;
+  &lt;li&gt;Engine: Rolling and sidestepping has been implemented.&lt;/li&gt;
+  &lt;li&gt;Engine: Damage via hitboxes has been implemented.&lt;/li&gt;
+  &lt;li&gt;Engine: Knockback via hitboxes has been implemented.&lt;/li&gt;
+  &lt;li&gt;Engine: Hitstun via hitboxes has been implemented (Partial/WIP).&lt;/li&gt;
+  &lt;li&gt;Misc: A game reset effect has been added. Press Ctrl + R from any point to return to the stage select  menu.&lt;/li&gt;
+  &lt;li&gt;Misc: A screenshot button has been added. Press F12 to take a screenshot. Saves to the game’s directory.&lt;/li&gt;
+  &lt;li&gt;Launcher: A automatically updating launcher has been added to the game, will try to keep the game as up  to date as possible.&lt;/li&gt;
+  &lt;li&gt;Localization: Game will automatically localize itself to the user’s current system language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added German as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added English as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Spanish as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added French as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Croatian as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Hungarian as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Italian as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Japanese as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Korean as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Dutch as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Polish as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Portuguese as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Russian as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Serbian as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Thai as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Chinese (Simplified) as an available game language.&lt;/li&gt;
+  &lt;li&gt;Localization: Added Chinese (Traditional) as an available game language.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;known-issues&quot;&gt;Known Issues:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;UI: No character select screen is available: only one character is available currently.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/144&quot;&gt;#144&lt;/a&gt;) UI: No custom network lobby UI is currently available. The debug UI is used instead.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/104&quot;&gt;#104&lt;/a&gt;) Youmu: Neutral combo is not implemented yet.&lt;/li&gt;
+  &lt;li&gt;Youmu: Special attacks are not implemented yet.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/105&quot;&gt;#105&lt;/a&gt;) Youmu: Some tilt attacks do not have animations yet.&lt;/li&gt;
+  &lt;li&gt;Youmu: Still missing a few other animations, several of her states copy other animations as placeholders.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/84&quot;&gt;#84&lt;/a&gt;) Youmu: Some animations have a broken facial animations making Youmu look like a goblin in these cases.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/74&quot;&gt;#74&lt;/a&gt;) Engine: Ledge guarding is not implemented yet. Multiple players can grab the same ledge&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/213&quot;&gt;#213&lt;/a&gt;) Engine: Smash attacks cannot currently be charged.&lt;/li&gt;
+  &lt;li&gt;Attacks are currently purely visual. They do not spawn hitboxes yet.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/178&quot;&gt;#178&lt;/a&gt;) Engine: Shielding via keyboard controls seems to be broken for select individuals.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/190&quot;&gt;#190&lt;/a&gt;) Engine: Tapping down may occasionally cause a delayed jump.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/151&quot;&gt;#151&lt;/a&gt;) Engine: Force falling through soft platforms always triggers immediate fast falling.&lt;/li&gt;
+  &lt;li&gt;(&lt;a href=&quot;https://github.com/HouraiTeahouse/FantasyCrescendo/issues/101&quot;&gt;#101&lt;/a&gt;) Networking: Non-host players in a networked match may occasionally lose multiple lives upon dying.&lt;/li&gt;
+  &lt;li&gt;Network: Network animation synchronization is very simple right now. Remote player’s animations may be very jerky or laggy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;technical-patch-notes&quot;&gt;Technical Patch Notes:&lt;/h2&gt;
+
+&lt;h3 id=&quot;new-additions-1&quot;&gt;New Additions:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Added dependency on HouraiOptions&lt;/li&gt;
+  &lt;li&gt;Debug builds will have an additional Debug Stage added to the stage select screen.&lt;/li&gt;
+  &lt;li&gt;A debug console has been added. Use F5 to toggle it. (Available anywhere in game).&lt;/li&gt;
+  &lt;li&gt;A hitbox display effect (shows character hitboxes) has been added. Use F11 to toggle it.&lt;/li&gt;
+  &lt;li&gt;Unity Performance Reporting has been enabled. All exceptions will be reported via this service to help
+further develop the game.&lt;/li&gt;
+  &lt;li&gt;Unity Cloud Build has been enabled and integrated into the game’s deployment system. Builds from Unity
+Cloud Build will be immediately available under the “Development” branch in the Launcher.&lt;/li&gt;
+  &lt;li&gt;Unity Multiplayer Service has been enabled. The game now utilizes the matchmaking and relay services to
+assist in building internet based network matches. LAN matches do not go through this networking layer.&lt;/li&gt;
+  &lt;li&gt;CloudFlare has been added as an intermediate caching layer for the deployment system.&lt;/li&gt;
+  &lt;li&gt;Added dependency on Memes&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">v0.3.0-alpha</summary></entry></feed>
